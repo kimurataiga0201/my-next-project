@@ -47,14 +47,14 @@
 }
 .list {
   border-bottom: 1px solid
-  ver(--coler-border-light);
+  var(--coler-border-light);
 }
 .list:last-child {
   border-bottom: none;
 }
 .link {
   display: flex;
-  aligh-items: flex-start;
+  align-items: flex-start;
   gap: 40px;
   padding: 24px 0;
 }
