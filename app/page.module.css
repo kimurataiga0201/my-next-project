@@ -109,7 +109,7 @@
     font-size: 0.9rem;
     text-align: left;
   }
-}
+
 .bgimg {
     position: absolute;
     top: 0;
@@ -127,3 +127,4 @@
     width: calc(100% - 32px);
     padding: 16px 24px;
   }   
+}
