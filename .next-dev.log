@@ -1,0 +1,12 @@
+
+> my-next-project@0.1.0 dev
+> next dev
+
+   ▲ Next.js 14.1.4
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+
+ ✓ Ready in 1167ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1494ms (678 modules)
+ ✓ Compiled in 91ms (270 modules)
