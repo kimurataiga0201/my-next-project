@@ -44,4 +44,13 @@ export const getMembers = async (queries?: MicroCMSQueries) => {
         queries,
     });
     return listData;
-}
+};
+
+export const getNewsList = async (queries?: MicroCMSQueries) => {
+    const listData = await client
+    .getList<News>({
+        endpoint: "news",
+        queries,
+    });
+    return listData;
+};
