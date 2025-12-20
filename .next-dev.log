@@ -10,3 +10,292 @@
  ○ Compiling / ...
  ✓ Compiled / in 1494ms (678 modules)
  ✓ Compiled in 91ms (270 modules)
+ ✓ Compiled in 48ms (270 modules)
+ ✓ Compiled /news in 198ms (610 modules)
+ ✓ Compiled /not-found in 200ms (594 modules)
+ ✓ Compiled in 199ms (591 modules)
+ ✓ Compiled in 95ms (315 modules)
+ ⨯ ./app/news/page.tsx
+Error: 
+  [31mx[0m Expected 'from', got 'export'
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/news/page.tsx[0m:2:1]
+ [2m2[0m | import NewsList from "@/app/_components/NewsList";
+ [2m3[0m | import { NEWS_}
+ [2m4[0m | 
+ [2m5[0m | export default async function Page() {
+   : [31;1m^^^^^^[0m
+ [2m6[0m |     const { contents: news } = await getNewsList();
+ [2m7[0m | 
+ [2m8[0m |     return <NewsList news={news} />;
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/news/page.tsx
+ ⨯ ./app/news/page.tsx
+Error: 
+  [31mx[0m Expected 'from', got 'export'
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/news/page.tsx[0m:2:1]
+ [2m2[0m | import NewsList from "@/app/_components/NewsList";
+ [2m3[0m | import { NEWS_LIST}
+ [2m4[0m | 
+ [2m5[0m | export default async function Page() {
+   : [31;1m^^^^^^[0m
+ [2m6[0m |     const { contents: news } = await getNewsList();
+ [2m7[0m | 
+ [2m8[0m |     return <NewsList news={news} />;
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/news/page.tsx
+ ⨯ ./app/news/page.tsx
+Error: 
+  [31mx[0m Expected 'from', got 'export'
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/news/page.tsx[0m:2:1]
+ [2m2[0m | import NewsList from "@/app/_components/NewsList";
+ [2m3[0m | import { NEWS_LIST_ }
+ [2m4[0m | 
+ [2m5[0m | export default async function Page() {
+   : [31;1m^^^^^^[0m
+ [2m6[0m |     const { contents: news } = await getNewsList();
+ [2m7[0m | 
+ [2m8[0m |     return <NewsList news={news} />;
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/news/page.tsx
+ ⨯ ./app/news/page.tsx
+Error: 
+  [31mx[0m Expected 'from', got 'export'
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/news/page.tsx[0m:2:1]
+ [2m2[0m | import NewsList from "@/app/_components/NewsList";
+ [2m3[0m | import { NEWS_LIST_LIMIT }
+ [2m4[0m | 
+ [2m5[0m | export default async function Page() {
+   : [31;1m^^^^^^[0m
+ [2m6[0m |     const { contents: news } = await getNewsList();
+ [2m7[0m | 
+ [2m8[0m |     return <NewsList news={news} />;
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/news/page.tsx
+ ✓ Compiled in 154ms (591 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/_constants/index.ts
+Error: 
+  [31mx[0m Unexpected eof
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/_constants/index.ts[0m:1:1]
+ [2m1[0m | export const MEMBERS_LIST_LIMIT = 100;
+ [2m2[0m | export const TOP_NEWS_LIMIT = 2;
+ [2m3[0m | export
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_constants/index.ts
+./app/news/page.tsx
+ ⨯ ./app/_constants/index.ts
+Error: 
+  [31mx[0m Unexpected eof
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/_constants/index.ts[0m:1:1]
+ [2m1[0m | export const MEMBERS_LIST_LIMIT = 100;
+ [2m2[0m | export const TOP_NEWS_LIMIT = 2;
+ [2m3[0m | export
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_constants/index.ts
+./app/news/page.tsx
+ ○ Compiling /_error ...
+ ⨯ ./app/_constants/index.ts
+Error: 
+  [31mx[0m Unexpected eof
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/_constants/index.ts[0m:1:1]
+ [2m1[0m | export const MEMBERS_LIST_LIMIT = 100;
+ [2m2[0m | export const TOP_NEWS_LIMIT = 2;
+ [2m3[0m | export
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_constants/index.ts
+./app/news/page.tsx
+ ⨯ ./app/_constants/index.ts
+Error: 
+  [31mx[0m Unexpected eof
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/_constants/index.ts[0m:1:1]
+ [2m1[0m | export const MEMBERS_LIST_LIMIT = 100;
+ [2m2[0m | export const TOP_NEWS_LIMIT = 2;
+ [2m3[0m | export
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_constants/index.ts
+./app/news/page.tsx
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/_constants/index.ts
+Error: 
+  [31mx[0m Unexpected eof
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/_constants/index.ts[0m:1:1]
+ [2m1[0m | export const MEMBERS_LIST_LIMIT = 100;
+ [2m2[0m | export const TOP_NEWS_LIMIT = 2;
+ [2m3[0m | export
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_constants/index.ts
+./app/news/page.tsx
+ ⨯ ./app/_constants/index.ts
+Error: 
+  [31mx[0m Unexpected eof
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/_constants/index.ts[0m:1:1]
+ [2m1[0m | export const MEMBERS_LIST_LIMIT = 100;
+ [2m2[0m | export const TOP_NEWS_LIMIT = 2;
+ [2m3[0m | export
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_constants/index.ts
+./app/news/page.tsx
+ ⨯ ./app/_constants/index.ts
+Error: 
+  [31mx[0m Unexpected eof
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/_constants/index.ts[0m:1:1]
+ [2m1[0m | export const MEMBERS_LIST_LIMIT = 100;
+ [2m2[0m | export const TOP_NEWS_LIMIT = 2;
+ [2m3[0m | export
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_constants/index.ts
+./app/news/page.tsx
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/_constants/index.ts
+Error: 
+  [31mx[0m Unexpected eof
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/_constants/index.ts[0m:1:1]
+ [2m1[0m | export const MEMBERS_LIST_LIMIT = 100;
+ [2m2[0m | export const TOP_NEWS_LIMIT = 2;
+ [2m3[0m | export
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_constants/index.ts
+./app/news/page.tsx
+ ⨯ ./app/_constants/index.ts
+Error: 
+  [31mx[0m Unexpected eof
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/_constants/index.ts[0m:1:1]
+ [2m1[0m | export const MEMBERS_LIST_LIMIT = 100;
+ [2m2[0m | export const TOP_NEWS_LIMIT = 2;
+ [2m3[0m | export
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_constants/index.ts
+./app/news/page.tsx
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./app/_constants/index.ts
+Error: 
+  [31mx[0m Unexpected eof
+   ,-[[36;1;4m/Users/ktc/25a31e0006/my-next-project/app/_constants/index.ts[0m:1:1]
+ [2m1[0m | export const MEMBERS_LIST_LIMIT = 100;
+ [2m2[0m | export const TOP_NEWS_LIMIT = 2;
+ [2m3[0m | export
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_constants/index.ts
+./app/news/page.tsx
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ ./app/_components/Pagination/index.tsx
+Attempted import error: 'NEWS_LIST_LIMIT' is not exported from '@/app/_constants' (imported as 'NEWS_LIST_LIMIT').
+
+Import trace for requested module:
+./app/_components/Pagination/index.tsx
+./app/news/page.tsx
+
+./app/news/page.tsx
+Attempted import error: 'NEWS_LIST_LIMIT' is not exported from '@/app/_constants' (imported as 'NEWS_LIST_LIMIT').
+
+Import trace for requested module:
+./app/news/page.tsx
+ ⚠ ./app/_components/Pagination/index.tsx
+Attempted import error: 'NEWS_LIST_LIMIT' is not exported from '@/app/_constants' (imported as 'NEWS_LIST_LIMIT').
+
+Import trace for requested module:
+./app/_components/Pagination/index.tsx
+./app/news/page.tsx
+
+./app/news/page.tsx
+Attempted import error: 'NEWS_LIST_LIMIT' is not exported from '@/app/_constants' (imported as 'NEWS_LIST_LIMIT').
+
+Import trace for requested module:
+./app/news/page.tsx
+ ⚠ ./app/_components/Pagination/index.tsx
+Attempted import error: 'NEWS_LIST_LIMIT' is not exported from '@/app/_constants' (imported as 'NEWS_LIST_LIMIT').
+
+Import trace for requested module:
+./app/_components/Pagination/index.tsx
+./app/news/page.tsx
+
+./app/news/page.tsx
+Attempted import error: 'NEWS_LIST_LIMIT' is not exported from '@/app/_constants' (imported as 'NEWS_LIST_LIMIT').
+
+Import trace for requested module:
+./app/news/page.tsx
+ ⚠ ./app/_components/Pagination/index.tsx
+Attempted import error: 'NEWS_LIST_LIMIT' is not exported from '@/app/_constants' (imported as 'NEWS_LIST_LIMIT').
+
+Import trace for requested module:
+./app/_components/Pagination/index.tsx
+./app/news/page.tsx
+
+./app/news/page.tsx
+Attempted import error: 'NEWS_LIST_LIMIT' is not exported from '@/app/_constants' (imported as 'NEWS_LIST_LIMIT').
+
+Import trace for requested module:
+./app/news/page.tsx
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled /not-found in 47ms (364 modules)
+ ✓ Compiled in 215ms (766 modules)
